@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[https://github.com/QkeleQ10/Study-Tools/assets/65854503/fcc9719f-dd6d-4fe2-8233-e58bec7e538e](https://github.com/DaintyDust/Auto-Magister-Login/blob/main/icons/banner.png)" alt="Auto Login Logo" width="200">
+  <img src="https://github.com/DaintyDust/Auto-Magister-Login/blob/main/icons/banner.png" alt="Auto Login Logo" width="200">
 </p>
 
 # Auto Login Voor Magister
