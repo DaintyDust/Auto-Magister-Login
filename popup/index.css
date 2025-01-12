@@ -1,0 +1,44 @@
+body {
+    min-width: 20rem;
+    min-height: 24rem;
+}
+
+#save {
+    display: block;
+    width: 150px;
+    margin: auto;
+}
+
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+}
+.switch-div {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.splitter {
+    height: 10px;
+}
+
+.darkcheck{
+    position: absolute;
+    margin: 7px;
+    right: 0px;
+}
+
+.enable {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#togglePassword {
+    position: absolute;
+    translate: 0px -49px;
+    right: 27px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/materials-switches.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" id="dark-link" disabled href="/dark-mode.css">
+</head>
+
+<body>
+    <div class="d-flex align-items-center screen">
+        <div class="container fluid mt-3">
+            <div class="row">
+                <div class="col">
+                    <!-- <label for="">School:</label>
+                    <input type="text" class="form-control mb-3 login" autofocus name="school" id="school"
+                    placeholder="Vul je school in">
+                    <hr class="bg-light mb-3"> -->
+                    <label for="">Gebruikersnaam</label>:</label>
+                    <input type="text" class="form-control mb-3 login" autofocus name="usernumber" id="usernumber"
+                    placeholder="Vul je gebruikersnaam in">
+                    <hr class="bg-light mb-3">
+                    <label for="">Wachtwoord:</label>
+                    <input type="password" class="form-control mb-3 login" name="password" id="password" placeholder="Vul je wachtwoord in">
+                    <i class="bi bi-eye-slash" id="togglePassword"></i>
+                    <hr class="bg-light mb-3">
+                    <button class="btn-primary btn" id="save">Opslaan</button>
+                </div>
+            </div>
+            <div class="row"></div>
+            <div class="row">
+                <div class="col">
+                    <hr class="bg-light mb-3">
+                    <div class="vertical-flex">
+                        <div class="switch-div">
+                            <label>Extensie aan:</label>
+                            <div class="material-switch pull-right enable">
+                                <input id="switch" type="checkbox">
+                                <label for="switch" class="label-primary"></label>
+                            </div>
+                        </div>
+                        <div class="splitter"></div>
+                            <div class="switch-div">
+                            <label>Darkmode:</label>
+                            <div class="material-switch pull-right enable">
+                                <input id="dark-mode" type="checkbox" class="darkcheck">
+                                <label for="dark-mode" class="label-primary"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <input id="dark-mode" type="checkbox" class="darkcheck"></input> -->
+        </div>
+    </div>
+
+    <script src="/js/save.js"></script>
+</body>
+
+</html>
